@@ -1,0 +1,75 @@
+
+body {
+    text-align: center;
+    height: 140vh;
+    background: linear-gradient(
+      to bottom, 
+      white 0%,
+      white 18%,
+      navy 18%,
+      navy 90%,
+      white 90%
+  
+    );
+   
+  }
+  .logo{
+    width: 10%;
+  }
+  
+  
+  #images{
+    width: 100px;
+    height: 100px;
+  }
+  .Texts {
+    font-family: Montserrat, sans-serif;
+    margin-bottom: 10px;
+    color:white;
+  }
+  
+  .BUTTONS {
+      font-family: Montserrat, sans-serif;
+    border-radius:15px;
+    background-color:#F10F5E; 
+    color: white;
+    font-size: 30px;
+     font-weight:bold;
+    margin-bottom:10px;
+  }
+  
+  .INPUTS {
+    border-radius:80px;
+    margin-left:10px;
+    margin-bottom:5px;
+    font-family: Montserrat, sans-serif;
+    
+  }
+  
+  #Header {
+    font-size:40px;
+   
+    color: #201E1D;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, sans-serif;
+    font-weight: bold;
+  }
+  
+  #contentheader{
+    font-size:20px;
+  
+    color: #201E1D;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, sans-serif;
+  
+  }
+  
+  #SubHeader {
+    font-size:45px;  
+    font-weight:bold;
+  }
+  
+  #SubHeader2 {
+    font-size:30px;  
+    font-weight:bold;
+  }
+  
+  

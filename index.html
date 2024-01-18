@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>  <link rel="stylesheet" href="../CSS/style.css">
+    <title>
+      Area/Perimeter Calculator
+    
+    </title>
+  </head>
+  <body>
+    <img class="logo" src="https://images.squarespace-cdn.com/content/v1/58024ed6e4fcb5662c1db0d2/1506977845067-PDWCQRRCY92KKP4N9F2T/Square+HD.png" alt="Logo">
+    <div id = "Header" class="TextsHeader">
+       Apercat</div>
+       <div id = "contentheader" class="TextsHeader2">
+        Area and Perimeter Calculator</div>
+       
+        <br> <hr>
+
+    <br>
+    <div id= "SubHeader" class = "Texts">Welcome to Apercat</div>
+    <div id= "content" class = "Texts">Need a hand to calculate area and perimeter? we're here for you.</div>
+    <br>
+    <div id= "SubHeader2" class = "Texts">Square Calculator</div>
+    <div id = "Length" class="Texts">Enter Side Length:<input id = "LengthInput" class="INPUTS" type ="number"></div>
+    <button id = "Calculate" onclick = "Calculate()" class="BUTTONS">Calculate</button>
+    <div id="AreaText" class="Texts">Your Area is:</div>
+    <div id="AreaAnswer" class="Texts">0</div>
+    <div id="PerimeterText" class="Texts">Your Perimeter is</div>
+    <div id="PerimeterAnswer" class="Texts">0</div>
+    <br>
+    <div id= "SubHeader2" class = "Texts">Rectangle Calculator</div>
+    <div id = "WidthRectiangle" class="Texts">Enter Side Width:<input id = "WidthInputRectiangle" class="INPUTS" type ="number"></div>
+    <div id = "HeightRectiangle" class="Texts">Enter Side Height:<input id = "HeightInputRectiangle" class="INPUTS" type ="number"></div>
+    <button id = "CalculateRectiangle" onclick = "CalculateRectiangle()" class="BUTTONS">Calculate</button>
+    <div id="RectiangleAreaText" class="Texts">Your Area is:</div>
+    <div id="RectiangleAreaAnswer" class="Texts">0</div>
+    <div id="RectianglePerimeterText" class="Texts">Your Perimeter is</div>
+    <div id="RectianglePerimeterAnswer" class="Texts">0</div>
+  </body>
+  <script src="../JavaScript/main.js"></script>
+</html>
